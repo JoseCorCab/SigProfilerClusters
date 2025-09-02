@@ -1161,7 +1161,7 @@ def analysis(
         + file_context2
         + "/"
     )
-
+    print(simulation_path)
     # Checks for simulated data. If there are not simulations, then inform the user to generate simulations first before
     # performing the clusters analysis:
     if not os.path.exists(simulation_path):
